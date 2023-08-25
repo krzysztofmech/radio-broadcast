@@ -1,4 +1,4 @@
-import { IBoxConfig } from "./IBoxConfig";
+import { IBoxConfig } from "./interfaces/IBoxConfig";
 
 interface IConfigs {
   [key: string]: IBoxConfig;
@@ -27,7 +27,7 @@ export const configs: IConfigs = {
       label: "Playlist",
       style: {
         fg: "white",
-        bg: "green",
+        bg: "#131313",
         border: {
           fg: "#f0f0f0",
         },
@@ -52,7 +52,7 @@ export const configs: IConfigs = {
       label: "Queue",
       style: {
         fg: "white",
-        bg: "blue",
+        bg: "#EEA4BB",
         border: {
           fg: "#f0f0f0",
         },
@@ -74,7 +74,7 @@ export const configs: IConfigs = {
       label: "Now Playing",
       style: {
         fg: "white",
-        bg: "black",
+        bg: "#131313",
         border: {
           fg: "#f0f0f0",
         },
@@ -97,7 +97,7 @@ export const configs: IConfigs = {
       label: "Controls",
       style: {
         fg: "grey",
-        bg: "black",
+        bg: "#EEA4BB",
         border: {
           fg: "#000000",
         },

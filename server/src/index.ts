@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { view } from "./view";
+import { view } from "./view.js";
 
 const main = async () => {
   const app = express();
